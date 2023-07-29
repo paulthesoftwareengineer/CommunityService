@@ -1,0 +1,49 @@
+/* Apply custom styles to the navigation bar */
+.navbar {
+    background-color: #343a40; /* Dark gray background color */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Increase the font size of the navbar brand */
+    font-weight: bold;
+  }
+  
+  /* Style the container for the projects */
+  .container {
+    max-width: 800px; /* Limit the width of the container */
+  }
+  
+  h2 {
+    text-align: center; /* Center-align the heading */
+    margin-bottom: 20px; /* Add some spacing below the heading */
+  }
+  
+  /* Style the category filter */
+  .form-group {
+    margin-bottom: 0; /* Remove extra margin below the form group */
+  }
+  
+  label {
+    font-weight: bold; /* Make the label text bold */
+  }
+  
+  /* Style the project cards */
+  .card {
+    border: 1px solid #ced4da; /* Add a border to the cards */
+    border-radius: 5px; /* Round the card corners */
+  }
+  
+  .card-title {
+    font-size: 1.2rem; /* Increase the font size of the card title */
+    margin-bottom: 5px; /* Add some spacing below the card title */
+  }
+  
+  .card-text {
+    font-size: 0.9rem; /* Decrease the font size of the card text */
+  }
+  
+  /* Apply some spacing between cards */
+  .card:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  

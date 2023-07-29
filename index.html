@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>360 Community Service Projects</title>
+  <link rel="stylesheet" href="lib/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Add a navigation bar using Bootstrap -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">360 Community Service Projects</a>
+  </div>
+</nav>
+
+<!-- Add a container for the projects -->
+<div class="container my-5">
+  <h2>Community Service Projects</h2>
+  
+  <!-- Add filters for projects -->
+  <div class="form-row my-4">
+    <div class="form-group col-md-4">
+      <label for="categorySelect">Category:</label>
+      <select id="categorySelect" class="form-control">
+        <option value="all">All</option>
+        <option value="education">Education</option>
+        <option value="environment">Environment</option>
+        <option value="health">Health</option>
+        <!-- Add more categories as needed -->
+      </select>
+    </div>
+  </div>
+  
+  <!-- Display the list of projects here -->
+  <div id="projectList">
+    <!-- Projects will be dynamically loaded here using JavaScript -->
+  </div>
+</div>
+
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
